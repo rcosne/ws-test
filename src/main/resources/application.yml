@@ -1,0 +1,12 @@
+management:
+  endpoint:
+    health:
+      enabled: true
+  endpoints:
+    web:
+      base-path: "/admin"
+      exposure:
+        include: ["health", "metrics"]
+logging:
+  level:
+    org: INFO
