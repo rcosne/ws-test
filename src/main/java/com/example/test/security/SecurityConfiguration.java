@@ -1,7 +1,3 @@
-/*
- * Copyright (C) 2022 SAP SE or an SAP affiliate company. All rights reserved.
- */
-
 package com.example.test.security;
 
 import org.springframework.context.annotation.Bean;
